@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 0px;
+}
+/* Header Section */
+nav {
+  background-color: #636c79;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.menu-items {
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+
+.menu-item {
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.menu-items button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: solid;
+  border-width: 1px;
+  color: #fff;
+  border-color: rgb(202, 202, 202);
+}
+
+.hero {
+  display: flex;
+  background-color: #636c79;
+  padding: 50px 50px;
+}
+
+.hero-image {
+  background-image: url(./images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 800px;
+  border-radius: 15px;
+}
+
+.hero-content {
+  padding-left: 120px;
+  padding-right: 70px;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.hero-content p {
+  color: rgb(202, 202, 202);
+  font-size: 22px;
+  padding: 20px 0px;
+  line-height: 30px;
+}
+
+form button {
+  background-color: #8bb7a2;
+  color: #fff;
+  border: none;
+  padding: 20px 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+form img {
+  height: 20px;
+  padding-left: 20px;
+}
+
+input {
+  border: none;
+  width: 370px;
+  padding: 10px 10px;
+  background-color: #fff;
+  outline: none;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: fit-content;
+  padding: 7px;
+}
+
+/* connect */
+.connect {
+  margin: 50px;
+  padding: 50px 0px;
+}
+
+.connect h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.counter-connect {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 30px 100px;
+}
+
+.counter h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.counter h5 {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+.counter-img-vid {
+  height: 500px;
+  background-image: url(./images/2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-img-vid img {
+  height: 100px;
+}
+
+/* career */
+
+.career {
+  padding: 0px 50px;
+}
+
+.career h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.career-hero {
+  display: flex;
+  padding: 30px 0px;
+  margin-top: 50px;
+}
+
+.career-hero-content {
+  width: 50%;
+  padding-right: 50px;
+  align-self: center;
+}
+
+.career-hero-content h1 {
+  text-align: left;
+  font-size: 30px;
+}
+
+.career-hero-content p {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 30px 0px;
+}
+
+.career-hero-content button {
+  background-color: #8bb7a2;
+  color: #fff;
+  border: none;
+  padding: 15px 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.creer-hero-image {
+  background-image: url(./images/3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 600px;
+}
+
+.creer-hero-image-2 {
+  background-image: url(./images/5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 600px;
+  margin-right: 50px;
+}
+
+.csreer-hero-image-3 {
+  background-image: url(./images/4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 600px;
+  margin-right: 50px;
+}
+
+/* team */
+.teams {
+  padding: 50px 50px;
+  
+}
+
+.teams button {
+  background-color: #8bb7a2;
+  color: #fff;
+  border: none;
+  padding: 15px 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.team-top {
+  display: flex;
+}
+
+.team-top h5 {
+  width: 50%;
+  font-size: 35px;
+}
+
+.team-top p {
+  width: 50%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 70px;
+}
+
+.team-member img {
+  height: 500px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 14px;
+}
+
+.team-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50xpx;
+}
+
+
+footer{
+  padding: 50px 50px;
+  background-color: #10181D;
+}
+
+.footer-top{
+  display: flex;
+  padding: 50px 0px;
+  border-bottom: 0.5px solid rgb(184, 184, 184);
+}
+
+.footer-links{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-sec h3{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.footer-links{
+  padding: 50px 0px;
+}
+
+.footer-sec h5{
+  color: rgb(173, 173, 173);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
